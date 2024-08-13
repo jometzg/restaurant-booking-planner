@@ -1,0 +1,33 @@
+{
+    "schema": 1,
+    "type": "completion",
+    "description": "Generate an email to the customer on behalf of the restaurant that we are glad to accept the booking. Include all of the details of the booking.",
+    "execution_settings": {
+        "default": {
+            "max_tokens": 4000,
+            "temperature": 0.3
+        }
+    },
+    "input_variables": [
+        {
+            "name": "restaurant_name",
+            "description": "name of the restaurant",
+            "required": true
+        },
+        {
+            "name": "booking_date",
+            "description": "Date of the booking",
+            "required": true
+        },
+        {
+            "name": "booking_time",
+            "description": "time of the booking",
+            "required": true
+        },
+        {
+            "name": "number_of_people",
+            "description": "Number of people for the booking",
+            "required": true
+        }
+    ]
+}

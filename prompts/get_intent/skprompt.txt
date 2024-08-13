@@ -1,0 +1,17 @@
+<message role="system">Identify the user's intent. Return one of the following values:
+
+WriteEmail - If the user wants to write an excuse email to their boss.
+Unknown - If the user's intent matches none of the above.
+FindRestaurant - if the user wants to look for or find a local restaurant</message>
+
+for example:
+<message role="user">Write an email to my boss</message>
+<message role="assistant">WriteEmail</message>
+
+<message role="user">Learn about advanced physics</message>
+<message role="assistant">Physics</message>
+
+<message role="user">Find local restaurants</message>
+<message role="assistant">FindRestaurant</message>
+
+<message role="user">{{$input}}</message>

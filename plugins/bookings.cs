@@ -24,7 +24,7 @@ public class BookingsPlugin //JM+
         // get information that contains suitable restaurnats near my location that have the right cuisine type.
         var kernel = Kernel.CreateBuilder().Build();
         
-        var bingConnector = new BingConnector("8d54bec91c57418bb4e8617efce7b5de");
+        var bingConnector = new BingConnector("<BING-KEY>");
         kernel.ImportPluginFromObject(new WebSearchEnginePlugin(bingConnector), "bing");
 
         var function = kernel.Plugins["bing"]["search"];

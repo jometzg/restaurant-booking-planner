@@ -9,7 +9,7 @@ In summary, the demo can:
 3. Simulate the booking process
 4. Return a booking confirnation email from the restaurant.
 
-All of the above orchestrated by using automated function calling as a planner. See my other [lights controlling demo](https://github.com/jometzg/semantic-kernel-planne) repo for more explanation.
+All of the above orchestrated by using automated function calling as a planner. See my other [lights controlling demo](https://github.com/jometzg/semantic-kernel-planner) repo for more explanation.
 
 ## Prerequitities
 1. An Azure OpenAI instance with as deployed chat model e.g. *gpt-4o*. The resource name and key are needed

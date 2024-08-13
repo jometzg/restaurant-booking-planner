@@ -11,4 +11,8 @@ In summary, the demo can:
 
 All of the above orchestrated by using automated function calling as a planner. See my other lights repo for more explanation.
 
+## Prerequitities
+1. An Azure OpenAI instance with as deployed chat model e.g. *gpt-4o*. The resource name and key are needed
+2. A Bing Search service provisioned in Azure. This will then just requre the key in the booking plugin
+
 
